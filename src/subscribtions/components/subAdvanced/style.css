@@ -1,0 +1,15 @@
+.advanced {
+  background: radial-gradient(#ffffff, #dddddd);
+  height: 100px;
+  .title {
+    font-size: 22px;
+    position: relative;
+  }
+
+  .description {
+    min-height: 0;
+  }
+  .price {
+    font-size: 20px;
+  }
+}

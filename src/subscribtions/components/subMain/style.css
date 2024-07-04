@@ -1,0 +1,84 @@
+.easy {
+  
+}
+
+.standard {
+  background: radial-gradient(#ffffff, #dddddd);
+  .title {
+    position: relative;
+    background-color: #dddddd;
+  }
+  .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 22px solid transparent; 
+    border-right: 22px solid #dddddd;
+  }
+  .price {
+    background-color: #dddddd;
+  }
+}
+
+.block_container:hover {
+  background: #ffffff;
+}
+
+.pro {
+  background: radial-gradient(#ffffff, #b7ffb7);
+  .title {
+    position: relative;
+    background-color: #05dd05;
+  }
+  .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .price {
+    background-color: #05dd05;
+  }
+}
+
+.premium {
+  background: radial-gradient(#ffffff, #f7f7aa);
+  .title {
+    position: relative;
+    background-color: #ffd700;
+  }
+  .title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 22px solid transparent;
+    border-right: 22px solid #f7f7aa;
+  }
+  .price {
+    position: relative;
+    background-color: #ffd700;
+  }
+  .price::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: 18px solid transparent;
+    border-right: 18px solid #f7f7aa;
+  }
+}
+
+.premium:hover {
+  .title::after {
+    border-right: 22px solid #ffffff;
+  }
+  .price::after {
+    border-right: 18px solid #ffffff;
+  }
+}
